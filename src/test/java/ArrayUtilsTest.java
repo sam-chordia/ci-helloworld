@@ -17,7 +17,6 @@ public class ArrayUtilsTest {
 		assertEquals(-1, ArrayUtils.findLast(new int[]{}, 3));
 	}
 
-
 	@Test
 	public void testFindLastNonExistent() {
 		assertEquals(-1, ArrayUtils.findLast(new int[]{1, 2}, 3));
